@@ -1,0 +1,10 @@
+C:\Users\omarp\source\repos\PixloxSpammer\PixloxSpammer\bin\Debug\PixloxSpammer.exe.config
+C:\Users\omarp\source\repos\PixloxSpammer\PixloxSpammer\bin\Debug\PixloxSpammer.exe
+C:\Users\omarp\source\repos\PixloxSpammer\PixloxSpammer\bin\Debug\PixloxSpammer.pdb
+C:\Users\omarp\source\repos\PixloxSpammer\PixloxSpammer\obj\Debug\PixloxSpammer.csproj.AssemblyReference.cache
+C:\Users\omarp\source\repos\PixloxSpammer\PixloxSpammer\obj\Debug\PixloxSpammer.Form1.resources
+C:\Users\omarp\source\repos\PixloxSpammer\PixloxSpammer\obj\Debug\PixloxSpammer.Properties.Resources.resources
+C:\Users\omarp\source\repos\PixloxSpammer\PixloxSpammer\obj\Debug\PixloxSpammer.csproj.GenerateResource.cache
+C:\Users\omarp\source\repos\PixloxSpammer\PixloxSpammer\obj\Debug\PixloxSpammer.csproj.CoreCompileInputs.cache
+C:\Users\omarp\source\repos\PixloxSpammer\PixloxSpammer\obj\Debug\PixloxSpammer.exe
+C:\Users\omarp\source\repos\PixloxSpammer\PixloxSpammer\obj\Debug\PixloxSpammer.pdb
