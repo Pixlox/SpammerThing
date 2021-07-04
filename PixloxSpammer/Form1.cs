@@ -45,14 +45,9 @@ namespace PixloxSpammer
             spamAmount = spamAmount + 1; // set spam amount to +1 whatever it was before.
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("explorer.exe", "https://github.com");
+            System.Diagnostics.Process.Start("explorer.exe", "https://github.com/Pixlox/PixloxSpammerThing");
         }
     }
 }
