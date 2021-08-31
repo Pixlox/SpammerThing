@@ -7,8 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixloxSpammer", "PixloxSpam
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+			Debug|Any CPU = Debug|Any CPU
+    		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{04711EA3-867A-4603-95C0-8E7D63A5CF9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

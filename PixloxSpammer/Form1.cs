@@ -12,13 +12,13 @@ namespace PixloxSpammer
 {
     public partial class Form1 : Form
     {
-
+        string spamText;
         int tInverval; // timer interval variable
         int spamAmount; // spam amount variable
 
         public Form1()
         {
-            InitializeComponent();
+           InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e) // start button
@@ -32,17 +32,28 @@ namespace PixloxSpammer
         private void button2_Click(object sender, EventArgs e) // stop button
         {
             timer1.Stop(); // stop the timer
+            spamText = "";
             timer1.Interval = 1; // reset timer interval to 1.  
             tInverval = 1; // reset tInterval to 1.
-            MessageBox.Show("Spam stopped. Total messages sent is: " + spamAmount + "."); // say how much spam has been sent using spamAmount.
+            MessageBox.Show("Spam stopped. You sent " + spamText + spamAmount + "times."); // say how much spam has been sent using spamAmount.
             spamAmount = 0; // reset spamAmount before as a failsafe.
         }
 
         private void timer1_Tick(object sender, EventArgs e) // timer
         {
-            SendKeys.Send(spamtextbox.Text); // send whatever is inside every 'tick'. which is every [insert tInterval here] ms.
+            spamText = spamtextbox.Text.ToString();
+            SendKeys.Send(spamText); // send whatever is inside every 'tick'. which is every [insert tInterval here] ms.
             SendKeys.Send("{Enter}"); // send Enter Key.
-            spamAmount = spamAmount + 1; // set spam amount to +1 whatever it was before.
+
+            if(atCheckbox.Checked)
+            {
+                SendKeys.Send("{Enter}"); // sends enter to complete @ send when checked
+            }
+            else
+            {
+
+            } 
+            spamAmount++; // set spam amount to +1 whatever it was before.
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

@@ -40,6 +40,7 @@ namespace PixloxSpammer
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.atCheckbox = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -123,7 +124,7 @@ namespace PixloxSpammer
             // pictureBox1
             // 
             this.pictureBox1.Image = global::PixloxSpammer.Properties.Resources._2048px_Octicons_mark_github_svg;
-            this.pictureBox1.Location = new System.Drawing.Point(35, 9);
+            this.pictureBox1.Location = new System.Drawing.Point(35, 8);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(467, 54);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -131,12 +132,25 @@ namespace PixloxSpammer
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // atCheckbox
+            // 
+            this.atCheckbox.AutoSize = true;
+            this.atCheckbox.Checked = true;
+            this.atCheckbox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.atCheckbox.Location = new System.Drawing.Point(48, 212);
+            this.atCheckbox.Name = "atCheckbox";
+            this.atCheckbox.Size = new System.Drawing.Size(92, 21);
+            this.atCheckbox.TabIndex = 13;
+            this.atCheckbox.Text = "Able to @";
+            this.atCheckbox.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(491, 308);
+            this.Controls.Add(this.atCheckbox);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -169,6 +183,7 @@ namespace PixloxSpammer
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.CheckBox atCheckbox;
     }
 }
 
