@@ -72,15 +72,5 @@ namespace PixloxSpammer
         {
             System.Diagnostics.Process.Start("explorer.exe", "https://github.com/Pixlox/PixloxSpammerThing");
         }
-
-        private void atCheckbox_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_DblClick(object sender, EventArgs e)
-        {
-
-        }
     }
 }

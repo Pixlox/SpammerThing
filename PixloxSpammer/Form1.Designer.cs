@@ -144,7 +144,6 @@ namespace PixloxSpammer
             this.atCheckbox.TabIndex = 13;
             this.atCheckbox.Text = "Able to @";
             this.atCheckbox.UseVisualStyleBackColor = true;
-            this.atCheckbox.CheckedChanged += new System.EventHandler(this.atCheckbox_CheckedChanged);
             // 
             // Form1
             // 
@@ -167,7 +166,6 @@ namespace PixloxSpammer
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.Text = "Pixlox\'s Spammer";
-            this.Load += new System.EventHandler(this.Form1_DblClick);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
