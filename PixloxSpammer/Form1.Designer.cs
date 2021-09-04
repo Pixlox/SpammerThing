@@ -124,7 +124,7 @@ namespace PixloxSpammer
             // pictureBox1
             // 
             this.pictureBox1.Image = global::PixloxSpammer.Properties.Resources._2048px_Octicons_mark_github_svg;
-            this.pictureBox1.Location = new System.Drawing.Point(35, 8);
+            this.pictureBox1.Location = new System.Drawing.Point(37, 6);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(467, 54);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -135,6 +135,7 @@ namespace PixloxSpammer
             // atCheckbox
             // 
             this.atCheckbox.AutoSize = true;
+            this.atCheckbox.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.atCheckbox.Checked = true;
             this.atCheckbox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.atCheckbox.Location = new System.Drawing.Point(48, 212);
@@ -143,6 +144,7 @@ namespace PixloxSpammer
             this.atCheckbox.TabIndex = 13;
             this.atCheckbox.Text = "Able to @";
             this.atCheckbox.UseVisualStyleBackColor = true;
+            this.atCheckbox.CheckedChanged += new System.EventHandler(this.atCheckbox_CheckedChanged);
             // 
             // Form1
             // 
@@ -160,10 +162,12 @@ namespace PixloxSpammer
             this.Controls.Add(this.spamtextbox);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.Text = "Pixlox\'s Spammer";
+            this.Load += new System.EventHandler(this.Form1_DblClick);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

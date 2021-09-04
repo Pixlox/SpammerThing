@@ -8,3 +8,9 @@ C:\Users\omarp\source\repos\PixloxSpammer\PixloxSpammer\obj\Debug\PixloxSpammer.
 C:\Users\omarp\source\repos\PixloxSpammer\PixloxSpammer\obj\Debug\PixloxSpammer.csproj.CoreCompileInputs.cache
 C:\Users\omarp\source\repos\PixloxSpammer\PixloxSpammer\obj\Debug\PixloxSpammer.exe
 C:\Users\omarp\source\repos\PixloxSpammer\PixloxSpammer\obj\Debug\PixloxSpammer.pdb
+C:\Users\omarp\source\repos\PixloxSpammer\PixloxSpammer\bin\Debug\DiscordRPC.dll
+C:\Users\omarp\source\repos\PixloxSpammer\PixloxSpammer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\omarp\source\repos\PixloxSpammer\PixloxSpammer\bin\Debug\DiscordRPC.pdb
+C:\Users\omarp\source\repos\PixloxSpammer\PixloxSpammer\bin\Debug\DiscordRPC.xml
+C:\Users\omarp\source\repos\PixloxSpammer\PixloxSpammer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\omarp\source\repos\PixloxSpammer\PixloxSpammer\obj\Debug\PixloxSpammer.csproj.CopyComplete
