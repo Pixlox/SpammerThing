@@ -1,2 +1,2 @@
 # PixloxSpammerThing
-I made this to annoy someone, ig u can use it as well
+I made this to annoy someone on discord lol...you can use it too
